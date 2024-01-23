@@ -6,7 +6,7 @@ Task Manager is an application build in Django and Django REST Framework and Pos
 # Technologies
 
 Python 3.11.4
-PostgreSQL 13.13
+PostgreSQL 16.1
 Django 5.0.1
 django-dbbackup 4.1.0
 django-filter 23.5
@@ -18,4 +18,21 @@ psycopg2 2.9.9
 
 
 1. Unzip files
-2. Create task-manager-db PostgreSQL database - deafult connection settings 
+
+2. Install required Python packages using `pip install -r requirements.txt` command
+   
+3. Create task-manager-db PostgreSQL database - deafult connection settings in settings.py file are:
+
+        'NAME': 'task-manager-db'
+        'USER': 'postgres'
+        'PASSWORD': 'postgres'
+        'HOST': 'localhost'
+        'PORT': '5432'
+
+If your database configuration is different from above one you should change it in settings.py file (line 86).
+
+4. In terminal run `python manage.py createsuperuser` command
+
+5. 
+
+   
