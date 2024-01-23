@@ -39,6 +39,8 @@ Now, you need to run some command in Terminal in task-manager directory:
 
 6. Run command `python manage.py runserver`
 
+7. Now you can create some tasks, modify them, filter and delete and everything will be noticed in history.
+
 
 ## API Endpoints:
 
