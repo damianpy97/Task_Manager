@@ -31,11 +31,11 @@ If your database configuration is different from above one you should change it 
 
 Now, you need to run some command in Terminal in task-manager directory:
 
-3. Create superuser by running `python manage.py createsuperuser` command
+3. Run command `python manage.py makemigrations`
 
-4. Run command `python manage.py makemigrations`
+4. Run command `python manage.py migrate`
 
-5. Run command `python manage.py migrate`
+5. Create superuser by running `python manage.py createsuperuser` command
 
 6. Run command `python manage.py runserver`
 
