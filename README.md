@@ -1,6 +1,6 @@
 # Task Manager
 
-Task Manager is an application build in Django and Django REST Framework and PostgreSQL that allows to create, read, update and delete tasks. Moreover, tracking of history changes in database is implementated which allows user to find status of specific task in the past. Tasks list and historical actions list have filter feature to make it easier to search for more precisily. 
+Task Manager is an application build in Django, Django REST Framework and PostgreSQL that allows to create, read, update and delete tasks. Moreover, tracking of history changes in database is implementated which allows user to find status of specific task in the past. Tasks list and historical actions list have filter feature to make it easier to search for more precisily. 
 
 
 ## Technologies
