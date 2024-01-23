@@ -41,12 +41,13 @@ Now, you need to run some command in Terminal in task-manager directory:
 
 
 ## API Endpoints:
-(http://127.0.0.1:8000/task_list/) - read tasks list data
-http://127.0.0.1:8000/history/ - read historical actions data
-http://127.0.0.1:8000/create/ - create task
-http://127.0.0.1:8000/update/<int:pk>/ - update task with given ID
-http://127.0.0.1:8000/delete/<int:pk>/ - delete task with given ID
-http://127.0.0.1:8000task_detail/<int:pk>/ - read task data with given ID
+
+- http://127.0.0.1:8000/task_list/ - read tasks list data
+- http://127.0.0.1:8000/history/ - read historical actions data
+- http://127.0.0.1:8000/create/ - create task
+- http://127.0.0.1:8000/update/ID/ - update task with given ID
+- http://127.0.0.1:8000/delete/<int:pk>/ - delete task with given ID
+- http://127.0.0.1:8000task_detail/<int:pk>/ - read task data with given ID
 
 
    
